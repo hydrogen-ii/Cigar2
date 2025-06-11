@@ -277,7 +277,7 @@
         }
         byId('connecting').show(0.5);
         wsUrl = url;
-        ws = new WebSocket(`ws${USE_HTTPS ? 's' : ''}://${url}`);
+        ws = new WebSocket(url);
         ws.binaryType = 'arraybuffer';
         ws.onopen = wsOpen;
         ws.onmessage = wsMessage;
