@@ -220,7 +220,6 @@
 
     const WEBSOCKET_URL = null;
     const SKIN_URL = './skins/';
-    const USE_HTTPS = 'https:' === window.location.protocol;
     const EMPTY_NAME = 'An unnamed cell';
     const QUADTREE_MAX_POINTS = 32;
     const CELL_POINTS_MIN = 5;
